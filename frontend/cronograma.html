@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📋 Cronograma de Tareas</title>
+    <link rel="stylesheet" href="./assets/style.css"> 
+</head>
+<body>
+
+    <div class="header">
+        <h1>📋 Cronograma de Tareas - Refugio <span id="nombreRefugio">Cargando...</span></h1>
+        <p>¡Bienvenido! Aquí está la Rueda de Responsabilidades y los Totales Financieros.</p>
+    </div>
+
+    <div class="section">
+        <h2>💰 Totales Financieros del Refugio</h2>
+        <p>Fondos Recaudados: <strong id="fondos-recaudados">$0.00</strong> Bs.</p>
+        <p>Total de Horas de Práctica: <strong id="horas-totales">0</strong> horas.</p>
+    </div>
+
+    <div class="section">
+        <h2>🛠️ Rueda de Responsabilidades (Tareas Semanales Fijas)</h2>
+        <table>
+            <thead>
+                <tr><th>Día</th><th>Tarea Veterinaria</th><th>Tarea Marketing/Fondos</th><th>Participantes</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Lunes</td><td>Revisión Perros Viejos (VET)</td><td>Diseño de Post Adopción (MKT)</td><td>Rotativo</td></tr>
+                <tr><td>**Producción**</td><td colspan="2">Horneado de 200 Huesos (12h, 2 Días)</td><td>**3 Practicantes (Rotativo)**</td></tr>
+                <tr><td>Sábado</td><td colspan="2">Puesto de Mercado y Venta (Rotativo)</td><td>**2 Practicantes (Rotativo)**</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>👤 Acumulado de Practicantes</h2>
+        <table id="practicantes-table">
+            <thead>
+                <tr><th>Nombre</th><th>Rol</th><th>Horas Acumuladas</th><th>Incentivo Pendiente (Bs.)</th></tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

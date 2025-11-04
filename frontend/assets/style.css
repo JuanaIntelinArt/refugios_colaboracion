@@ -1,0 +1,113 @@
+body {
+    /* Fondo para la imagen de perros_poker.png */
+    background-image: url('./perros_poker.png'); /* Ruta a tu imagen */
+    background-size: cover; /* Cubre todo el fondo sin distorsionarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Mantiene la imagen fija al hacer scroll */
+    
+    /* Agregamos un filtro de oscuridad para que el texto sea más legible */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    background-blend-mode: darken; /* Mezcla el color de fondo con la imagen */
+
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra verticalmente el contenido */
+    min-height: 100vh;
+    margin: 0; /* Elimina el margen por defecto del body */
+}
+
+/* --- Estilos Generales de Contenedores --- */
+.login-container, .header, .section {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con 90% de opacidad */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.header { /* Este header se usa en cronograma.html */
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+h1 {
+    color: #4CAF50;
+    margin-top: 0;
+}
+
+/* --- Nuevo Estilo para el Encabezado Principal (donde va el logo) --- */
+.main-header {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del título */
+    padding: 0;
+    background: none; /* Asegura que no tenga fondo blanco */
+    box-shadow: none; /* Asegura que no tenga sombra */
+    width: 90%;
+    max-width: 800px;
+}
+
+#titulo-logo {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 75px; 
+    color: #FDF9E0; /* Color crema */
+    margin: 0;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); /* Sombra más fuerte para contraste */
+    line-height: 1.2; /* Espaciado entre líneas */
+}
+
+/* --- Estilos del Formulario de Login --- */
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #45a049;
+}
+button.signup {
+    background-color: #007bff;
+    margin-left: 10px;
+}
+#error-message { /* Asegura que el mensaje de error sea visible */
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+
+/* --- Estilos de Tablas (Cronograma) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #e0e0e0;
+}

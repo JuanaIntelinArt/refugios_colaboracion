@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐶 Refugios Cochabamba - Ingreso</title>
+    <link rel="stylesheet" href="./assets/style.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <h2 id="titulo-logo">Colaboración de Refugios Cochabamba</h2>
+    </header>
+
+    <div class="login-container">
+        <h1>🐾 Acceso a Refugios</h1>
+        
+        <input type="text" id="refugioID" placeholder="ID del Refugio (Ej: 1)" required>
+        <input type="password" id="password" placeholder="Contraseña (Ej: 123)" required>
+        
+        <button onclick="handleLogin()">**Sign In**</button>
+        <button class="signup" onclick="alert('Funcionalidad de registro (Sign Up) en desarrollo.')">Sign Up</button>
+        
+        <p id="error-message"></p>
+    </div>
+
+    <script>
+        // ... (El script JavaScript anterior se mantiene igual) ...
+        const CREDENCIALES_MOCK = {
+            "1": "123",
+            "2": "456",
+            "3": "789",
+            "4": "000",
+            "5": "111"
+        };
+
+        function handleLogin() {
+            const id = document.getElementById('refugioID').value;
+            const pass = document.getElementById('password').value;
+            const errorElement = document.getElementById('error-message');
+            errorElement.textContent = "";
+
+            if (CREDENCIALES_MOCK[id] && CREDENCIALES_MOCK[id] === pass) {
+                localStorage.setItem('refugioIdLogeado', id); 
+                window.location.href = `cronograma.html?refugio=${id}`;
+            } else {
+                errorElement.textContent = "**Error:** ID o Contraseña incorrectos.";
+            }
+        }
+    </script>
+</body>
+</html>

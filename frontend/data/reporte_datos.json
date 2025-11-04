@@ -1,0 +1,97 @@
+{
+    "timestamp": "Reporte generado",
+    "refugios": {
+        "1": {
+            "nombre": "Esperanza Canina",
+            "ubicacion": "Zona Norte",
+            "perros_viejos": 20,
+            "gatos_permanentes": 10,
+            "necesidad_veterinaria": "Alta",
+            "horas_practica_veterinaria": 15,
+            "horas_practica_marketing": 36,
+            "fondos_recaudados": 2175.0,
+            "horas_registradas_total": 51
+        },
+        "2": {
+            "nombre": "Patitas Felices",
+            "ubicacion": "Zona Sur",
+            "perros_viejos": 20,
+            "gatos_permanentes": 10,
+            "necesidad_veterinaria": "Media",
+            "horas_practica_veterinaria": 10,
+            "horas_practica_marketing": 0,
+            "fondos_recaudados": 0.0,
+            "horas_registradas_total": 10
+        },
+        "3": {
+            "nombre": "Rescate Cochabamba",
+            "ubicacion": "Centro",
+            "perros_viejos": 20,
+            "gatos_permanentes": 10,
+            "necesidad_veterinaria": "Alta",
+            "horas_practica_veterinaria": 0,
+            "horas_practica_marketing": 20,
+            "fondos_recaudados": 300.0,
+            "horas_registradas_total": 20
+        },
+        "4": {
+            "nombre": "Amigos de Cuatro Patas",
+            "ubicacion": "Sacaba",
+            "perros_viejos": 20,
+            "gatos_permanentes": 10,
+            "necesidad_veterinaria": "Media",
+            "horas_practica_veterinaria": 0,
+            "horas_practica_marketing": 15,
+            "fondos_recaudados": 0.0,
+            "horas_registradas_total": 15
+        },
+        "5": {
+            "nombre": "Corazón Animal",
+            "ubicacion": "Tiquipaya",
+            "perros_viejos": 20,
+            "gatos_permanentes": 10,
+            "necesidad_veterinaria": "Baja",
+            "horas_practica_veterinaria": 0,
+            "horas_practica_marketing": 0,
+            "fondos_recaudados": 0.0,
+            "horas_registradas_total": 0
+        }
+    },
+    "practicantes": [
+        {
+            "id": "VET001",
+            "nombre": "Ana López",
+            "carrera": "Veterinaria",
+            "horas_acumuladas": 27,
+            "incentivo_pendiente": 83.109375
+        },
+        {
+            "id": "MKT001",
+            "nombre": "Juan Pérez",
+            "carrera": "Marketing",
+            "horas_acumuladas": 32,
+            "incentivo_pendiente": 98.5
+        },
+        {
+            "id": "VET002",
+            "nombre": "Carlos Soto",
+            "carrera": "Veterinaria",
+            "horas_acumuladas": 10,
+            "incentivo_pendiente": 30.78125
+        },
+        {
+            "id": "MKT002",
+            "nombre": "Sofía Ramos",
+            "carrera": "Marketing",
+            "horas_acumuladas": 15,
+            "incentivo_pendiente": 46.171875
+        },
+        {
+            "id": "VET003",
+            "nombre": "David Cruz",
+            "carrera": "Veterinaria",
+            "horas_acumuladas": 12,
+            "incentivo_pendiente": 36.9375
+        }
+    ]
+}
