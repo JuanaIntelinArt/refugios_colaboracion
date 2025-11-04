@@ -58,8 +58,3 @@ Usa estas credenciales para acceder:
 | **1** | **123** |
 | **2** | **456** |
 
----
-
-## ⚠️ Despliegue en Vercel
-
-Actualmente, el Backend de Python (`datos_refugios.py`) **no se ejecuta en Vercel**. Los datos mostrados en el `cronograma.html` serán los últimos que se hayan generado y subido a GitHub (el `reporte_datos.json` es estático). Para un proyecto dinámico, la lógica de Python debería convertirse en una **Vercel Serverless Function**.
